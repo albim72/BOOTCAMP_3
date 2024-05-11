@@ -1,0 +1,29 @@
+zadanie - 1 część
+przygotuj zbiór danych wg zadanego url
+podziel dane na cechy (features) i etykietę (label)
+Podizel zbiór danych na treningowy i testowy w stosunku 80% - 20%
+
+
+Przeprowadź normalizajcę danych za pomocą  klasy tf - MinMaxScaler()
+url = "https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data"
+etykieta - mpg
+column_names = ['mpg', 'cylinders', 'displacement', 'horsepower', 'weight', 'acceleration', 'model_year', 'origin', 'car_name']
+Paulina Hryciuk opuścił(a)
+Paulina Hryciuk dołączył(a) jako gość
+
+
+zbuduj model - dwie warstwy wewnętrzne  o gęstościach 64, 32 plus warstwa wyjścia o gęstości jeden, funklcja aktywacji - -relu
+kompilacja modelu: adam, mean_squared_error, brak metryk
+Trening modelu  50 epok, batch_size = 32, validation_split = 0.2
+ewaluacja modelu ale tylko dla wartości loss
+przy treningu uwzględnij zmiemnną history
+Paulina Hryciuk opuścił(a)
+Paulina Hryciuk dołączył(a) jako gość
+
+
+utwórz wykres wartości loss w zależności o numeru epoki
+
+
+wykonaj predykcję na znormalizowanych danych testowych
+Wyświetl kilka rzeczywistych wartości mpg oraz przewidywanych wartości
+Aby zbudować wykres przedstawiający predykcje modelu w porównaniu z rzeczywistymi wartościami
